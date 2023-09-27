@@ -13,18 +13,19 @@ Before running the script, make sure you have the following dependencies install
 - PyTorch
 - torchaudio
 - pydub
+- soundfile
 
 You can install the required Python packages using `pip`:
 
 ```bash
-pip install torch torchaudio pydub
+pip install -r requirements.txt
 ```
 
 ## Usage
 To use the script, you need to provide a source audio file and specify the reference category using command-line arguments. Here's how to run the script:
 
 ```bash
-python voice_conversion.py --ref <reference_category> --src <source_audio_file>
+python voice_conversion.py --ref <reference_category> --src <source_audio_file_path>
 ```
 
 ## References
