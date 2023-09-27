@@ -25,8 +25,9 @@ pip install -r requirements.txt
 To use the script, you need to provide a source audio file and specify the reference category using command-line arguments. Here's how to run the script:
 
 ```bash
-python voice_conversion.py --ref <reference_category> --src <source_audio_file_path>
+python voice.py --ref <reference_category> --src <source_audio_file_path>
 ```
+
 **DONT FORGET CHANGE THE PATH!!!!**
 
 ## References
