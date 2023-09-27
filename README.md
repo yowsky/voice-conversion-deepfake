@@ -19,3 +19,15 @@ pip install torch torchaudio pydub
 
 ## Usage
 To use the script, you need to provide a source audio file and specify the reference category using command-line arguments. Here's how to run the script:
+
+```bash
+python voice_conversion.py --ref <reference_category> --src <source_audio_file>
+```
+## References
+KNN-VC GitHub Repository: The KNN-VC model used in this script is pre-trained and loaded from this repository.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+```bash
+Dengan file README.md ini, Anda memberikan instruksi tentang cara menjalankan skrip, mencantumkan prasyarat, dan memberikan tautan ke sumber daya yang relevan. Anda juga memberikan informasi lisensi untuk proyek Anda. Pastikan untuk menyimpannya sebagai file `README.md` di repositori GitHub Anda.
+```
