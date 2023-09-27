@@ -15,7 +15,7 @@ You can install the required Python packages using `pip`:
 
 ```bash
 pip install torch torchaudio pydub
-# voice-conversion
+```
 
 ## Usage
 To use the script, you need to provide a source audio file and specify the reference category using command-line arguments. Here's how to run the script:
