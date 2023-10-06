@@ -7,19 +7,19 @@ from pydub import AudioSegment
 # membuat dictionary untuk menyimpan path file reference WAV
 REFERENCE_WAVS = {
     "taher": [
-        "D:/machineLearning/DeepFake/voice_fix/reference/taher/aldi1-mono.wav",
-        "D:/machineLearning/DeepFake/voice_fix/reference/taher/aldi2-mono.wav",
-        "D:/machineLearning/DeepFake/voice_fix/reference/taher/aldi3-mono.wav",
+        "reference/taher/aldi1-mono.wav",
+        "reference/taher/aldi2-mono.wav",
+        "reference/taher/aldi3-mono.wav",
     ],
     "dekan": [],
     "ryan": [
-        'D:/machineLearning/DeepFake/voice_fix/reference/ryan/ryan1-mono.wav',
-        'D:/machineLearning/DeepFake/voice_fix/reference/ryan/ryan2-mono.wav',
-        'D:/machineLearning/DeepFake/voice_fix/reference/ryan/ryan3-mono.wav',
-        'D:/machineLearning/DeepFake/voice_fix/reference/ryan/ryan4-mono.wav',
-        'D:/machineLearning/DeepFake/voice_fix/reference/ryan/ryan5-mono.wav',
-        'D:/machineLearning/DeepFake/voice_fix/reference/ryan/ryan6-mono.wav',
-        'D:/machineLearning/DeepFake/voice_fix/reference/ryan/ryan7-mono.wav',
+        'reference/ryan/ryan1-mono.wav',
+        'reference/ryan/ryan2-mono.wav',
+        'reference/ryan/ryan3-mono.wav',
+        'reference/ryan/ryan4-mono.wav',
+        'reference/ryan/ryan5-mono.wav',
+        'reference/ryan/ryan6-mono.wav',
+        'reference/ryan/ryan7-mono.wav',
     ],
 }
 
